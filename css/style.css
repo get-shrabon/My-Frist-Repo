@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+.navbar-collapse {
+    flex-basis: auto !important;
+}
+
 .primary-btn:hover {
     background: rgba(239, 8, 8, 0.815);
     color: white;
@@ -86,14 +90,16 @@ body {
 .test {
     background-color: #F0F6FF;
 }
+
 /* real testimonials section style end */
 
 /* Lets talk section style start */
-.talk{
+.talk {
     border: none;
     background: none;
 }
-.talk-container{
+
+.talk-container {
     position: relative;
     top: 200px;
 }
@@ -101,12 +107,14 @@ body {
 /* Lets talk section style end */
 
 /* footer style start */
-footer{
+footer {
     background-color: black;
     height: 100vh;
 }
-footer .row{
+
+footer .row {
     position: relative;
     top: 100px;
 }
+
 /* footer style end*/
