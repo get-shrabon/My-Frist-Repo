@@ -1,0 +1,112 @@
+body {
+    background-color: #F8FCFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar style start */
+.primary-btn {
+    background: #FC6A08;
+    border-radius: 9px;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: rgba(239, 8, 8, 0.815);
+    color: white;
+}
+
+.nav-::after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: blue;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-:hover::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+    display: block;
+}
+
+.navitem {
+    margin-left: 150px;
+}
+
+.nav-logo {
+    margin-left: 50px;
+}
+
+/* nav bar style end */
+
+/* benner style start */
+.benner-img {
+    width: 700px;
+    margin-right: -24px;
+}
+
+.benner-col-1 {
+    padding-top: 150px;
+    padding-left: 60px;
+}
+
+.des {
+    color: #32B926;
+    ;
+}
+
+.title {
+
+    font-weight: bold;
+
+}
+
+/* benner style end */
+
+/* service section style start */
+.col-w {
+    width: 380px;
+    height: 247px;
+    background: white;
+    border-bottom: 5px solid #137BEE;
+
+}
+
+.des- {
+    font-size: 16px;
+}
+
+/* service section style end */
+
+/* real testimonials section style start */
+.test {
+    background-color: #F0F6FF;
+}
+/* real testimonials section style end */
+
+/* Lets talk section style start */
+.talk{
+    border: none;
+    background: none;
+}
+.talk-container{
+    position: relative;
+    top: 200px;
+}
+
+/* Lets talk section style end */
+
+/* footer style start */
+footer{
+    background-color: black;
+    height: 100vh;
+}
+footer .row{
+    position: relative;
+    top: 100px;
+}
+/* footer style end*/
